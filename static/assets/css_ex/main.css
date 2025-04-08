@@ -29,6 +29,14 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+.gif-video {
+    width: auto;
+    height: 100%;
+    max-width: 400px;
+}
+
+
 body {
 	line-height: 1;
 }
@@ -3324,6 +3332,7 @@ input, select, textarea {
 		}
 
 		.panel.banner.right {
+			overflow: hidden;
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
