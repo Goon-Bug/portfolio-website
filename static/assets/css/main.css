@@ -2453,7 +2453,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-mily: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -3083,6 +3083,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 50em;
 			-ms-flex: 1;
+			flex: 1;
 		}
 
 			.spotlights > section > .content > .inner {
